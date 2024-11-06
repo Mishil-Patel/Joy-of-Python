@@ -1,0 +1,10 @@
+from turtle import *
+pencolor('red')
+begin_fill()
+fillcolor('pink')
+forward(100)
+left(120)
+forward(100)
+left(120)
+forward(100)
+end_fill()

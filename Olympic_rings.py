@@ -1,0 +1,40 @@
+from turtle import *
+speed(0)
+colormode(255)
+green_color = '#00a651'
+red_color = '#ee334e'
+yellow_color = '#fcb131'
+blue_color = '#0081c8'
+pensize(15)
+penup()
+goto(-330,0)
+setheading(0)
+pendown()
+pencolor(blue_color)
+circle(150)
+penup()
+goto(0,0)
+pendown()
+pencolor('black')
+circle(150)
+14
+penup()
+goto(330,0)
+setheading(0)
+pendown()
+pencolor(red_color)
+circle(150)
+penup()
+goto(-165,-200)
+setheading(0)
+pencolor(yellow_color)
+pendown()
+circle(150)
+penup()
+goto(165,-200)
+setheading(0)
+pencolor(green_color)
+pendown()
+circle(150)
+
+done()
